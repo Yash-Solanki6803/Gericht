@@ -12,11 +12,12 @@ const Footer = () => {
       <Newsletter />
 
       <div className="app__footer-links">
-        <div className="app__footer-links_contact"></div>
-        <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">The him father parish looked </p>
-        <p className="p__opensans">+54865113218 </p>
-        <p className="p__opensans">+54665443515 </p>
+        <div className="app__footer-links_contact">
+          <h1 className="app__footer-headtext">Contact Us</h1>
+          <p className="p__opensans">The him father parish looked </p>
+          <p className="p__opensans">+54865113218 </p>
+          <p className="p__opensans">+54665443515 </p>
+        </div>
         <div className="app__footer-links_logo">
           <img src={images.gericht} alt="Footer Logo" />
           <p className="p__opensans">
@@ -41,9 +42,9 @@ const Footer = () => {
           <p className="p__opensans">Mon-Fri 10am </p>
           <p className="p__opensans">Sat-Sun 11am </p>
         </div>
-        <div className="footer__copyright">
-          <p className="p__opensans">2021 Gericht</p>
-        </div>
+      </div>
+      <div className="footer__copyright">
+        <p className="p__opensans">2021 Gericht</p>
       </div>
     </div>
   );
